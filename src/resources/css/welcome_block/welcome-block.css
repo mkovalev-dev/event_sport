@@ -1,0 +1,10 @@
+.welcome-block {
+    height: 100vh;
+    background: linear-gradient(
+            45deg,
+            rgba(3, 0, 31, 0.95),
+            rgba(5, 61, 112, 0.7)
+    ),
+    url(../../../resources/img/home-intro.gif);
+    background-size: cover;
+}
