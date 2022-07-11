@@ -1,0 +1,13 @@
+.sponsors-block__item {
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(173, 173, 173, 0.11);
+    border-radius: 25px;
+    color: black;
+    padding: 25px;
+    transition: all 0.5s ease-out;
+}
+
+.sponsors-block__item:hover {
+    transform: translate(0,-10px);
+}

@@ -1,0 +1,8 @@
+.sponsors-block {
+    min-height:45vh;
+    background: #ffffff;
+}
+
+.sponsors-block h2{
+    color: rgba(3, 0, 31, 0.95);
+}

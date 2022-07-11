@@ -1,0 +1,25 @@
+.form-login-block__login__button {
+    height: 40px;
+    background: none;
+    border-radius: 10px;
+    color: rgba(3, 0, 31, 0.95);
+    border-color: rgba(3, 0, 31, 0.95);
+    transition: all 0.3s ease-out;
+}
+.form-login-block__login__button:hover {
+    transform: translate(0,-5px);
+}
+
+.form-login-block__login__button__registration {
+    height: 40px;
+    background: none;
+    border-radius: 10px;
+    color: rgba(250, 154, 32, 0.98);
+    border-color: rgba(250, 154, 32, 0.98);
+    transition: all 0.3s ease-out;
+    margin-bottom: 5px;
+}
+
+.form-login-block__login__button__registration:hover {
+    transform: translate(0,-5px);
+}

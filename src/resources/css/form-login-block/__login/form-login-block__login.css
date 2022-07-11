@@ -1,0 +1,18 @@
+.form-login-block__login {
+    border: none;
+    background-color: #f1f1f1;
+    height: 40px;
+    width: 300px;
+}
+
+.form-login-block__login::placeholder {
+    color: rgba(5, 39, 68, 0.45);
+}
+
+.form-login-block__login input {
+    background-color: #f1f1f1;
+}
+
+.form-login-block__login input::placeholder {
+    color: rgba(5, 39, 68, 0.45);
+}

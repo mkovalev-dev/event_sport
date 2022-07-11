@@ -1,4 +1,5 @@
 .welcome-block {
+    position: relative;
     height: 100vh;
     background: linear-gradient(
             45deg,
@@ -7,4 +8,13 @@
     ),
     url(../../../resources/img/home-intro.gif);
     background-size: cover;
+    transform: translateZ(0);
+    animation: fon 3s forwards;
+    clip-path: polygon(50% 0, 0 0, 110% 0);
+    z-index: -1;
+}
+@keyframes fon {
+    100% {
+        clip-path: polygon(50% 80%, -50% 0, 150% 0);
+    }
 }
