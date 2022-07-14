@@ -1,0 +1,19 @@
+.bottom-menu-block__item {
+    height: 60px;
+    width: 60px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-out;
+}
+.bottom-menu-block__item:hover {
+    transform: translateY(-5px);
+    background-color: white;
+}
+
+.active {
+    transform: translateY(-5px);
+    background-color: white;
+}

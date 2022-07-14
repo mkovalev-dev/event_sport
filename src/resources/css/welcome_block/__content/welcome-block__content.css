@@ -11,6 +11,31 @@
     box-shadow: 0 0 50px 1px rgba(10, 60, 103, 0.25);
 }
 
+.welcome-block__content__col-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-block__content__col-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid;
+    border-color: rgba(3,0,31,0.1);
+}
+
+@media only screen and (max-width: 768px) {
+    .welcome-block__content__col-logo {
+       display: none;
+    }
+    .welcome-block__content__col-form {
+        border: none;
+    }
+}
+
 @media only screen and (max-width: 950px) {
     .welcome-block__content{
         top: calc(60% - 280px);

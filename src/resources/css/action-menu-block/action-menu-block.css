@@ -1,0 +1,8 @@
+.action-menu-block {
+    position: absolute;
+    bottom: 0;
+    background: white;
+    width: 100%;
+    height: 430px;
+    text-align: center;
+}

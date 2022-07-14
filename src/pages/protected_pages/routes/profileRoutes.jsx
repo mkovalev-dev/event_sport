@@ -1,0 +1,22 @@
+import { Route, Routes } from "react-router-dom";
+
+import Error404 from "../../../components/Errors/Error404";
+import {
+  BasicPathConstants,
+  CloseWithAuthPathConstants,
+} from "../../../utils/constants/routesConst";
+import ProfileRetrieve from "../profile/retrieve";
+/**
+ * Пути для профиля пользователя.
+ */
+export default function ProfileRoutes() {
+  return (
+    <Routes>
+      <Route
+        path={CloseWithAuthPathConstants.RETRIEVE_PROFILE_PAGE}
+        element={<ProfileRetrieve />}
+      />
+      <Route path={BasicPathConstants.ERROR_404} element={<Error404 />} />
+    </Routes>
+  );
+}
