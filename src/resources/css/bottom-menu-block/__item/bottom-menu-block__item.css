@@ -13,7 +13,7 @@
     background-color: white;
 }
 
-.active {
+.bottom-menu-block__item__active {
     transform: translateY(-5px);
     background-color: white;
 }

@@ -8,4 +8,11 @@
     position: absolute;
     bottom: 0;
     text-align: center;
+    animation: bloc 1s forwards;
+}
+
+
+@keyframes bloc {
+    from {height: 0;}
+    to {height: 540px;}
 }

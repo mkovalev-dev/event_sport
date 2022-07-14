@@ -1,3 +1,4 @@
+import { RadarChartOutlined } from "@ant-design/icons";
 import { Col, Divider, Progress, Row } from "antd";
 
 import ActionMenu from "./ActionMenu";
@@ -12,9 +13,17 @@ export default function ActionProfile() {
               backgroundColor: "rgba(250,154,32,0)",
               height: "114px",
               borderRadius: "15px",
+              padding: "10px",
             }}
           >
-            <p style={{ textAlign: "left", marginTop: 0, color: "#00318A" }}>
+            <p
+              style={{
+                textAlign: "left",
+                marginTop: 0,
+                color: "#00318A",
+                fontWeight: 500,
+              }}
+            >
               Заполненность профиля
             </p>
             <div style={{ position: "absolute", bottom: 0, width: "100%" }}>
@@ -41,11 +50,34 @@ export default function ActionProfile() {
         <Col span={10} style={{ margin: "12px" }}>
           <div
             style={{
-              backgroundColor: "#FFC771",
+              backgroundColor: "#FFB200",
               height: "114px",
               borderRadius: "15px",
+              padding: "10px",
             }}
-          ></div>
+          >
+            <RadarChartOutlined
+              style={{
+                textAlign: "left",
+                marginTop: 0,
+                color: "#ffffff",
+                float: "left",
+                fontSize: "38px",
+              }}
+            />
+            <br />
+            <br />
+            <p
+              style={{
+                textAlign: "left",
+                marginTop: 0,
+                color: "#ffffff",
+                fontWeight: 500,
+              }}
+            >
+              Последний анализ рекомендаций
+            </p>
+          </div>
         </Col>
       </Row>
       <Divider style={{ margin: "20px 0" }} />

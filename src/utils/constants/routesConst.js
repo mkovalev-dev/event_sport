@@ -13,4 +13,5 @@ export const CloseWithAuthPathConstants = {
   ERROR_404: "*",
   PROFILE_PAGE: "/profile/*",
   RETRIEVE_PROFILE_PAGE: ":id",
+  PROFILE_TEAMS: "teams",
 };

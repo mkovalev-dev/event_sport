@@ -10,7 +10,7 @@ import { Col, Row } from "antd";
 export default function ActionMenu() {
   return (
     <>
-      <Row justify="center" gutter={[5, 15]}>
+      <Row key="das" justify="center" gutter={[5, 15]}>
         <Col span={5} style={{ display: "flex", justifyContent: "center" }}>
           <div
             className="action-menu-block__items"
@@ -46,7 +46,10 @@ export default function ActionMenu() {
         <Col span={20} style={{ display: "flex", justifyContent: "center" }}>
           <div
             className="action-menu-block__items"
-            style={{ backgroundColor: "rgba(208,228,255,0.4)", width: "100%" }}
+            style={{
+              backgroundColor: "rgba(208,228,255,0.4)",
+              width: "100%",
+            }}
           >
             <span style={{ fontSize: "1.2em", color: "#001D70" }}>
               <ReconciliationOutlined style={{ marginRight: "10px" }} />
