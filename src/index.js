@@ -18,7 +18,7 @@ import "./resources/css/form-login-block/form-login-block.css";
 import "./resources/css/form-login-block/__login/form-login-block__login.css";
 import "./resources/css/form-login-block/__login/__button/form-login-block__login__button.css";
 
-import { ConfigProvider } from "antd"; // or 'antd/dist/antd.css'
+import { ConfigProvider } from "antd";
 import ruRU from "antd/es/locale/ru_RU";
 import moment from "moment";
 import React from "react";
