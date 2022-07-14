@@ -11,19 +11,13 @@ import { CloseWithAuthPathConstants } from "../../../utils/constants/routesConst
 
 export default function BottomMenu() {
   const navigate = useNavigate();
+
   return (
     <div className="bottom-menu-block">
       <Row justify={"center"} gutter={25}>
         <Col span={6}>
           <div className="bottom-menu-block__item">
-            <HomeOutlined
-              style={{ fontSize: "2em", color: "#001D70" }}
-              onClick={() => {
-                navigate(
-                  `/profile/${CloseWithAuthPathConstants.PROFILE_TEAMS}`
-                );
-              }}
-            />
+            <HomeOutlined style={{ fontSize: "2em", color: "#001D70" }} />
           </div>
         </Col>
         <Col span={6}>
@@ -40,6 +34,9 @@ export default function BottomMenu() {
           <div className="bottom-menu-block__item">
             <EnvironmentOutlined
               style={{ fontSize: "2em", color: "#001D70" }}
+              onClick={() => {
+                navigate(`/${CloseWithAuthPathConstants.YMAP_ORG}`);
+              }}
             />
           </div>
         </Col>

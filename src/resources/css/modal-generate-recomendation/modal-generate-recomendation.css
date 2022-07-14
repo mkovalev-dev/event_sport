@@ -1,0 +1,30 @@
+.modal-generate-recomendation {
+    border-radius: 25px;
+}
+
+.modal-generate-recomendation .ant-modal-footer {
+    display: none;
+}
+.modal-generate-recomendation .ant-modal-content {
+    border-radius: 25px;
+}
+.modal-generate-recomendation .ant-modal-header {
+    border-radius: 25px;
+
+}
+.modal-generate-recomendation .ant-modal-title {
+    color: #001D70;
+}
+
+.input-data-for-rec input {
+    height: 45px;
+    border: none;
+    background-color: rgba(225, 230, 239, 0.6);
+    border-radius: 10px;
+}
+
+.input-data-for-rec label {
+    color: #001D70;
+    font-size: 14px;
+    font-weight: 400;
+}

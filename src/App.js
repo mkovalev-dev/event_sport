@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 
 import Error404 from "./components/Errors/Error404";
 import HomePage from "./pages/open_pages/home";
+import OrgMap from "./pages/protected_pages/orgMap";
 import ProfileRoutes from "./pages/protected_pages/routes/profileRoutes";
 import {
   BasicPathConstants,
@@ -17,6 +18,7 @@ function App() {
         path={CloseWithAuthPathConstants.PROFILE_PAGE}
         element={<ProfileRoutes />}
       />
+      <Route path={CloseWithAuthPathConstants.YMAP_ORG} element={<OrgMap />} />
     </Routes>
   );
 }

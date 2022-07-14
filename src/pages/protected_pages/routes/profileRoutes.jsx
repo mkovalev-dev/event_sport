@@ -17,10 +17,6 @@ export default function ProfileRoutes() {
         path={CloseWithAuthPathConstants.RETRIEVE_PROFILE_PAGE}
         element={<ProfileRetrieve />}
       />
-      <Route
-        path={CloseWithAuthPathConstants.PROFILE_TEAMS}
-        element={<BottomMenu />}
-      />
       <Route path={BasicPathConstants.ERROR_404} element={<Error404 />} />
     </Routes>
   );

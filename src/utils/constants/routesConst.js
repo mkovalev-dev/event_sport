@@ -14,4 +14,5 @@ export const CloseWithAuthPathConstants = {
   PROFILE_PAGE: "/profile/*",
   RETRIEVE_PROFILE_PAGE: ":id",
   PROFILE_TEAMS: "teams",
+  YMAP_ORG: "org",
 };

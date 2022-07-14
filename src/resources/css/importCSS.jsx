@@ -23,3 +23,4 @@ import "./bottom-menu-block/bottom-menu-block.css";
 import "./action-menu-block/action-menu-block.css";
 import "./bottom-menu-block/__item/bottom-menu-block__item.css";
 import "./action-menu-block/__items/action-menu-block__items.css";
+import "./modal-generate-recomendation/modal-generate-recomendation.css";

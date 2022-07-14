@@ -1,7 +1,9 @@
 import { RadarChartOutlined } from "@ant-design/icons";
 import { Col, Divider, Progress, Row } from "antd";
+import { useState } from "react";
 
 import ActionMenu from "./ActionMenu";
+import ModalGetRecomendation from "./ModalGetRecomendation";
 
 export default function ActionProfile() {
   return (
@@ -62,7 +64,7 @@ export default function ActionProfile() {
                 marginTop: 0,
                 color: "#ffffff",
                 float: "left",
-                fontSize: "38px",
+                fontSize: "32px",
               }}
             />
             <br />
@@ -73,6 +75,7 @@ export default function ActionProfile() {
                 marginTop: 0,
                 color: "#ffffff",
                 fontWeight: 500,
+                fontSize: " 12px",
               }}
             >
               Последний анализ рекомендаций
