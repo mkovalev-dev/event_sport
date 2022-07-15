@@ -2,6 +2,10 @@ import { Col, Row } from "antd";
 import QueueAnim from "rc-queue-anim";
 import { OverPack } from "rc-scroll-anim";
 
+import aiIcon from "../../../resources/img/about_us/ai_icon.png";
+import personalProgram from "../../../resources/img/about_us/personal_program.png";
+import sportEvent from "../../../resources/img/about_us/sport_event.png";
+
 export default function AboutSection() {
   return (
     <div id="about" className="about-block">
@@ -26,13 +30,34 @@ export default function AboutSection() {
             style={{ marginTop: "5%" }}
           >
             <Col xs={16} sm={16} md={8} lg={8} xl={4}>
-              <div className="about-block__item"></div>
+              <div className="about-block__item">
+                <img src={aiIcon} alt="ai_icon" />
+                <h2>Интелектуальные технологии в спорте</h2>
+                <p>
+                  Краткое описание Краткое описание Краткое описание Краткое
+                  описание Краткое
+                </p>
+              </div>
             </Col>
             <Col xs={16} sm={16} md={8} lg={8} xl={4}>
-              <div className="about-block__item"></div>
+              <div className="about-block__item">
+                <img src={personalProgram} alt="ai_icon" />
+                <h2>Заголовок</h2>
+                <p>
+                  Краткое описание Краткое описание Краткое описание Краткое
+                  описание Краткое
+                </p>
+              </div>
             </Col>
             <Col xs={16} sm={16} md={16} lg={8} xl={4}>
-              <div className="about-block__item"></div>
+              <div className="about-block__item">
+                <img src={sportEvent} alt="ai_icon" />
+                <h2>Заголовок</h2>
+                <p>
+                  Краткое описание Краткое описание Краткое описание Краткое
+                  описание Краткое
+                </p>
+              </div>
             </Col>
           </Row>
         </QueueAnim>

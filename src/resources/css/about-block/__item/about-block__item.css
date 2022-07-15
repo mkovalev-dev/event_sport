@@ -6,6 +6,24 @@
     color: black;
     padding: 25px;
     transition: all 0.5s ease-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-block__item img {
+    width: 50%;
+}
+.about-block__item h2 {
+    margin-top: 25px;
+    font-size: 16px;
+    color: rgba(3, 0, 31, 0.95);
+    text-align: center;
+}
+.about-block__item p {
+    color: lightgray;
+    text-align: justify;
 }
 
 .about-block__item:hover {

@@ -4,8 +4,19 @@
     background-color: rgba(173, 173, 173, 0.11);
     border-radius: 25px;
     color: black;
-    padding: 25px;
+    padding: 5px;
     transition: all 0.5s ease-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.sponsors-block__item img {
+    width: 60%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
 }
 
 .sponsors-block__item:hover {

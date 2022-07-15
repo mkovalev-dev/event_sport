@@ -2,6 +2,8 @@ import { Col, Row } from "antd";
 import QueueAnim from "rc-queue-anim";
 import { OverPack } from "rc-scroll-anim";
 
+import fond from "../../../resources/img/sponsors/fond.png";
+
 export default function SponsorsSection() {
   return (
     <div id="sponsors" className="sponsors-block">
@@ -26,7 +28,9 @@ export default function SponsorsSection() {
             style={{ marginTop: "5%" }}
           >
             <Col xs={16} sm={16} md={8} lg={4} xl={4}>
-              <div className="sponsors-block__item"></div>
+              <div className="sponsors-block__item">
+                <img src={fond} alt="fond" />
+              </div>
             </Col>
             <Col xs={16} sm={16} md={8} lg={4} xl={4}>
               <div className="sponsors-block__item"></div>
