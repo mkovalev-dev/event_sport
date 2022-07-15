@@ -29,7 +29,7 @@ export default function AboutSection() {
             gutter={[24, 24]}
             style={{ marginTop: "5%" }}
           >
-            <Col xs={16} sm={16} md={8} lg={8} xl={4}>
+            <Col xs={24} sm={24} md={8} lg={8} xl={4}>
               <div className="about-block__item">
                 <img src={aiIcon} alt="ai_icon" />
                 <h2>Интелектуальные технологии в спорте</h2>
@@ -39,7 +39,7 @@ export default function AboutSection() {
                 </p>
               </div>
             </Col>
-            <Col xs={16} sm={16} md={8} lg={8} xl={4}>
+            <Col xs={24} sm={24} md={8} lg={8} xl={4}>
               <div className="about-block__item">
                 <img src={personalProgram} alt="ai_icon" />
                 <h2>Заголовок</h2>
@@ -49,7 +49,7 @@ export default function AboutSection() {
                 </p>
               </div>
             </Col>
-            <Col xs={16} sm={16} md={16} lg={8} xl={4}>
+            <Col xs={24} sm={24} md={16} lg={8} xl={4}>
               <div className="about-block__item">
                 <img src={sportEvent} alt="ai_icon" />
                 <h2>Заголовок</h2>

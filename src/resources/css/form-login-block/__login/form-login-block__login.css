@@ -2,7 +2,7 @@
     border: none;
     background-color: #f1f1f1;
     height: 40px;
-    width: 300px;
+    width: 100%;
 }
 
 .form-login-block__login::placeholder {

@@ -1,16 +1,10 @@
-import { Button, Form, Input } from "antd";
+import { Button, Form, Input, Radio } from "antd";
 
 export default function FormRegistration() {
   return (
     <Form>
       <Form.Item>
         <Input placeholder="E-mail..." className="form-login-block__login" />
-      </Form.Item>
-      <Form.Item>
-        <Input.Password
-          placeholder="Пароль..."
-          className="form-login-block__login"
-        />
       </Form.Item>
       <Form.Item>
         <Input placeholder="Фамилия..." className="form-login-block__login" />
@@ -20,6 +14,13 @@ export default function FormRegistration() {
       </Form.Item>
       <Form.Item>
         <Input placeholder="Отчество..." className="form-login-block__login" />
+      </Form.Item>
+      <Form.Item>
+        <Radio.Group defaultValue="a">
+          <Radio.Button value="a">Спортсмен</Radio.Button>
+          <Radio.Button value="b">Тренер</Radio.Button>
+          <Radio.Button value="c">Площадка</Radio.Button>
+        </Radio.Group>
       </Form.Item>
       <Form.Item>
         <Button

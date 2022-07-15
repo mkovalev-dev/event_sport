@@ -20,26 +20,22 @@ export default function WelcomeSection() {
         <div key="content" className="welcome-block__content">
           <Row style={{ height: "100%" }}>
             <Col
-              span={12}
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
+              xs={12}
+              sm={12}
+              md={12}
+              lg={12}
+              xl={12}
+              className="welcome-block__content__col-logo"
             >
               <img src={logoDef} alt="12" style={{ width: "75%" }} />
             </Col>
             <Col
-              span={12}
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-                justifyContent: "center",
-                borderLeft: " 1px solid",
-                borderColor: "rgba(3,0,31,0.1)",
-              }}
+              xs={24}
+              sm={24}
+              md={12}
+              lg={12}
+              xl={12}
+              className="welcome-block__content__col-form"
             >
               <h2
                 style={{ color: "rgba(3, 0, 31, 0.95)", textAlign: "center" }}
@@ -74,9 +70,9 @@ export default function WelcomeSection() {
               )}
             </Col>
           </Row>
+          <div className="welcome-block__circular-arrow"></div>
         </div>
       </QueueAnim>
-      <div className="welcome-block__circular-arrow"></div>
     </div>
   );
 }
