@@ -1,0 +1,15 @@
+.news-block__item__date{
+    width: 150px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    right: 25px;
+    top: 25px;
+    position: absolute;
+    display: flex;
+}
+.news-block__item__date p {
+    margin: auto;
+    color: white;
+    font-weight: bold;
+}

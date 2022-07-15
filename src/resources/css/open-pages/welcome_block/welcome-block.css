@@ -6,7 +6,7 @@
             rgba(3, 0, 31, 0.95),
             rgba(5, 61, 112, 0.7)
     ),
-    url(../../../resources/img/home-intro.gif);
+    url(../../../img/home-intro.gif);
     background-size: cover;
     transform: translateZ(0);
     animation: fon 3s forwards;

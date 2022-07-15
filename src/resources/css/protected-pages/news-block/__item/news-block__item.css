@@ -1,0 +1,18 @@
+.news-block__item {
+    background-color: #c7c9e2;
+    height: 100%;
+    width: 50%;
+    border-radius: 35px;
+    position: relative;
+    display: inline-block;
+    margin-right: 45px;
+}
+.news-block__item img {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:80%;
+    height:100%;
+    object-fit: cover;
+}
